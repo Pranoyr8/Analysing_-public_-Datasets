@@ -1,0 +1,11 @@
+SELECT DISTINCT A.country_code,B.country_name,B.value 
+FROM `bigquery-public-data.world_bank_wdi.country_summary` AS A        
+
+INNER JOIN `bigquery-public-data.world_bank_wdi.indicators_data`AS B
+ON A.country_code=B.country_code
+ORDER BY value DESC
+
+---	Finding out countries and their respective World development Indicator values.
+
+
+
