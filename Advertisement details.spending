@@ -1,0 +1,5 @@
+
+SELECT AVG(spend_usd) AS AverageSpending FROM `bigquery-public-data.google_political_ads.advertiser_geo_spend` 
+WHERE country= "US"
+
+----	Finding out the average of the expenditure on political advertisements on google by the United States of America.
