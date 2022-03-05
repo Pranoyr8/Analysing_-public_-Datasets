@@ -1,0 +1,8 @@
+SELECT A.year,A.country_name,B.income_group,A.indicator_name, A.value
+FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` AS A 
+RIGHT JOIN `bigquery-public-data.world_bank_health_population.country_summary` AS B ON A.country_code = B.country_code
+WHERE income_group IS NOT NULL
+ORDER BY year DESC,
+value DESC
+
+---	Finding out the population health indices and their values from the all the countries with respect to the income brackets 
