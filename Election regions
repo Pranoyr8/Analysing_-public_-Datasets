@@ -1,0 +1,8 @@
+
+SELECT DISTINCT regions AS Regions,
+UPPER(elections) 
+AS Elections 
+FROM `bigquery-public-data.google_political_ads.advertiser_stats`
+
+--	Selecting regions and their respective elections from the dataset.
+
