@@ -1,0 +1,4 @@
+SELECT MAX(spend_usd) AS MaximumAmount,MIN(spend_usd) AS MinimumAmount FROM `bigquery-public-data.google_political_ads.advertiser_geo_spend`
+WHERE country="US"AND spend_usd BETWEEN 100001 AND 20000000
+
+----	The maximum and minimum amounts that the verified advertisers has spent on political advertisements pertaining to the United States of America.
