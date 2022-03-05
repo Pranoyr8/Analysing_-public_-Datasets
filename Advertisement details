@@ -1,0 +1,8 @@
+
+SELECT advertiser_name As Advertiser_Name ,ad_id AS Advertisement_ID,num_of_days AS Number_Of_Days 
+FROM `bigquery-public-data.google_political_ads.creative_stats` 
+WHERE num_of_days BETWEEN 10 AND 30
+
+---	Finding out all the verified advertisers and their IDs of whose ads have been run for at least a period of 10 days and at most a period of 30 days.
+
+
