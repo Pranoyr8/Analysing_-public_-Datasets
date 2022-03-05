@@ -2,10 +2,12 @@
 Public datasets are taken and analyzed for output
 
 1.Selecting regions and their respective elections from the dataset.
-![image](https://user-images.githubusercontent.com/100477751/156876738-c7ae5ad8-3bf4-4b15-8ab2-2b93a7ca504a.png)
+![image](https://user-images.githubusercontent.com/100477751/156878269-60e0bb20-64a8-4f79-8031-241a272e2709.png)
+
 
 2.	Selecting all datas regarding the political advertisements with respect to the United States of America in particular.
-![image](https://user-images.githubusercontent.com/100477751/156876882-93ceded7-3bc0-4d8e-8fc0-b0c98506ebd5.png)
+![image](https://user-images.githubusercontent.com/100477751/156878359-00662da9-ce50-420b-b379-6257ce63bf3d.png)
+
 
 3.	The maximum and minimum amounts that the verified advertisers has spent on political advertisements pertaining to the United States of America.
 ![image](https://user-images.githubusercontent.com/100477751/156876970-c016e016-2bfe-4af7-97e6-9b7cae86ffa5.png)
