@@ -1,3 +1,5 @@
 SELECT * FROM `bigquery-public-data.google_political_ads.advertiser_geo_spend` 
 WHERE country="US"
 AND spend_usd>50000
+
+----	Selecting all datas regarding the political advertisements with respect to the United States of America in particular
