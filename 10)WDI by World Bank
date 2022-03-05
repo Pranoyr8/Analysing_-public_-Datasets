@@ -5,7 +5,7 @@ INNER JOIN `bigquery-public-data.world_bank_wdi.indicators_data`AS B
 ON A.country_code=B.country_code
 ORDER BY value DESC
 
----	Finding out countries and their respective World development Indicator values.
+---	Finding out countries and their respective World Development Indicator values.
 
 
 
