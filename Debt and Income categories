@@ -1,0 +1,8 @@
+SELECT DISTINCT A.country_name,B.income_group,A.indicator_name,A.value 
+FROM `bigquery-public-data.world_bank_intl_debt.international_debt` AS A      
+
+FULL JOIN `bigquery-public-data.world_bank_intl_debt.country_summary` AS B
+ON A.country_code=B.country_code
+
+----
+	Selecting countries and values that determine their debt with respect to their income categories.
