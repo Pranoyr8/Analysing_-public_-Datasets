@@ -1,0 +1,6 @@
+
+SELECT SUM(spend_usd) AS Total_Spending FROM `bigquery-public-data.google_political_ads.advertiser_geo_spend` 
+WHERE country = "US"
+
+
+---	Finding out the total expenditure of the United States of America for political advertisements on google in terms of US dollars.
